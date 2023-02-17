@@ -101,12 +101,12 @@ def ms_to_timestamp(milliseconds):
     return f'{hours:02d}:{minutes:02d}:{seconds:02d},{milliseconds:03d}'
 
 
-choice = input("choose mode\n1-single file\n2-multiple files\n choice: ")
-if int(choice) == 2:
-    path = input("Path to srt files: ")
-    delay_ms = int(input("Enter delay in milliseconds: "))
-    adjust_subtitles_delay(path, delay_ms)
-else:
-    path = input("Path to srt file: ")
-    delay_ms = int(input("Enter delay in milliseconds: "))
-    adjust_single_srt_file(path, delay_ms)
+# choice = input("choose mode\n1-single file\n2-multiple files\n choice: ")
+# if int(choice) == 2:
+#     path = input("Path to srt files: ")
+#     delay_ms = int(input("Enter delay in milliseconds: "))
+#     adjust_subtitles_delay(path, delay_ms)
+# else:
+#     path = input("Path to srt file: ")
+#     delay_ms = int(input("Enter delay in milliseconds: "))
+#     adjust_single_srt_file(path, delay_ms)
